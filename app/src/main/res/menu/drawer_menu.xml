@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboardFragment"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+        
+        <item
+            android:id="@+id/forecastFragment"
+            android:icon="@drawable/ic_forecast"
+            android:title="@string/forecasts" />
+    </group>
+
+    <item android:title="Reports &amp; Analysis">
+        <menu>
+            <item
+                android:id="@+id/reportsFragment"
+                android:icon="@drawable/ic_report"
+                android:title="@string/reports" />
+            
+            <item
+                android:id="@+id/notificationsFragment"
+                android:icon="@drawable/ic_notifications"
+                android:title="@string/notifications" />
+        </menu>
+    </item>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/helpFragment"
+                android:icon="@drawable/ic_help"
+                android:title="@string/help" />
+            
+            <item
+                android:id="@+id/settingsFragment"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+        </menu>
+    </item>
+
+</menu>
